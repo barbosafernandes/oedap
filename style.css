@@ -1,5 +1,6 @@
 *{margin: 0;padding: 0; box-sizing: border-box;}
 body{background: #222222}
+a{text-decoration: none; color: #333333}
 /* logo --------------*/
 
  #logo{	/*border: 1px solid black*/;
@@ -30,9 +31,10 @@ body{background: #222222}
  		}
 
  #menu2{ 
- 			width: 150px;
+ 			width: 120px;
  			height: 40px;
  			  display: flex;
+                justify-content: center;
  			   	 align-items: center;
  			   		position: fixed;
  			   			z-index: 99999;
@@ -40,12 +42,25 @@ body{background: #222222}
  			   					list-style: none;
  			   						background: #fff;
  										border-radius: 7px;
- 											margin-right: 190px
+ 											margin-right: 190px;
+                                                transition: ease all 1s;
+ 		}
 
- 		}
+ #menu2:hover{
+            width: 155px;
+            height: 45px;
+            transition: ease all 1s;
+            }
  		li{
- 			margin: 10px
+ 			margin: 10px;
+            font-size: 19px;
+            transition: ease all 1s;
  		}
+
+        li:hover{
+            font-size: 22px;
+            transition:  ease all 1s;
+        }
 
 /* corpo main -------------------*/
 
@@ -55,36 +70,106 @@ body{background: #222222}
 				 justify-content: space-around;
 					flex-wrap: wrap;
 						margin: 0 auto;
-							background-image: url("background4.svg");
+							background-image: url("img/background4.svg");
 								background-repeat: no-repeat;
 									background-size:contain, cover;
 										backface-visibility: 0.2;
 									   margin-bottom: 100px;
-						}
+	/*fim corpo main*/					}
+    /*bloco img*/
 
-	.a{width: 500px; 
+	#bloco01{width: 500px; 
 		height: 300px;
 		 	margin-top: 50px;
-		 		background-image: url("0001.png");
-		 		 	background-repeat: no-repeat;
- 						background-size: cover;
-		 		  			transition: ease all 2s;
-		 		  				border-radius: 7px;
-		 		  					box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+		 		  transition: ease all 2s;
+		 				border-radius: 7px;
+		  					box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 			}
-	.a:hover{width: 510px;
+	#bloco01:hover{width: 510px;
 				 height: 310px;
-				 	background: green;
-				 		background-image: url("logo2.png");
-				 			background-repeat: no-repeat;
- 								background-size: cover; 
- 									box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-				 					  transition: ease all 2s;
+				 	background-repeat: no-repeat;
+ 						background-size: 550px 350px; 
+ 							box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+                                transition: ease all 2s;
                                         }
-		
 
+	#bloco02{width: 500px; 
+        height: 300px;
+            margin-top: 50px;
+                background-image: url("img/01.png");
+                    background-repeat: no-repeat;
+                        background-size: cover;
+                            transition: ease all 2s;
+                                border-radius: 7px;
+                                    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+            }
+    #bloco02:hover{width: 510px;
+                 height: 310px;
+                    background-repeat: no-repeat;
+                        background-size: cover; 
+                            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+                               background-image: url("img/03.png");
+                                  transition: ease all 2s;
+                                        }
+    #bloco03{width: 500px; 
+        height: 300px;
+            margin-top: 50px;
+                background-image: url("");
+                    background-repeat: no-repeat;
+                        background-size: cover;
+                            transition: ease all 2s;
+                                border-radius: 7px;
+                                    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+            }
+    #bloco03:hover{width: 510px;
+                 height: 310px;
+                    background-repeat: no-repeat;
+                        background-size: 550px 350px; 
+                            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+                               background-image: url("");
+                                  transition: ease all 2s;
+                                        }
+    #bloco04{width: 500px; 
+        height: 300px;
+            margin-top: 50px;
+                background-image: url("");
+                    background-repeat: no-repeat;
+                        background-size: cover;
+                            transition: ease all 2s;
+                                border-radius: 7px;
+                                    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+            }
+    #bloco04:hover{width: 510px;
+                 height: 310px;
+                    background-repeat: no-repeat;
+                        background-size: 550px 350px; 
+                            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+                               background-image: url("");
+                                  transition: ease all 2s;
+                                        }
 
-		.b{width: 550px; 
+    #bloco05{width: 500px; 
+        height: 300px;
+            margin-top: 50px;
+                background-image: url("");
+                    background-repeat: no-repeat;
+                        background-size: cover;
+                            transition: ease all 2s;
+                                border-radius: 7px;
+                                    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+            }
+    #bloco05:hover{width: 510px;
+                 height: 310px;
+                    background-repeat: no-repeat;
+                        background-size: 550px 350px; 
+                            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+                               background-image: url("");
+                                  transition: ease all 2s;
+                                        }
+    /*Fim bloco img*/
+
+/* blocos de texto*/
+		#blocotxt01{width: 550px; 
 			height: 300px;
 				margin-top: 100px;
 					font-size: 19px;
@@ -92,8 +177,23 @@ body{background: #222222}
 		  
 				}
 
+        #blocotxt02{width: 550px; 
+            height: 300px;
+                margin-top: 100px;
+                    font-size: 19px;
+                        padding: 5px;
+          
+                }
+        #blocotxt03{width: 550px; 
+            height: 300px;
+                margin-top: 100px;
+                    font-size: 19px;
+                        padding: 5px;
+          
+                }
 
 
+/* Fim blocos de texto*/
 
 
 		@media screen and (min-width: 1504px) {
