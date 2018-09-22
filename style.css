@@ -1,6 +1,8 @@
-*{margin: 0;padding: 0; box-sizing: border-box;}
+*{margin: 0;padding: 0; box-sizing: border-box; font-family: 'Merriweather', serif;}
 body{background: #222222}
 a{text-decoration: none; color: #333333}
+legend{background-color: #fff; font-size: 25px; width: 100%; border-radius: 7px 7px 0px 0px;}
+
 /* logo --------------*/
 
  #logo{	/*border: 1px solid black*/;
@@ -93,7 +95,8 @@ a{text-decoration: none; color: #333333}
                                 transition: ease all 2s;
                                         }
 
-	#bloco02{width: 500px; 
+	#bloco02{
+     width: 500px; 
         height: 300px;
             margin-top: 50px;
                 background-image: url("img/01.png");
